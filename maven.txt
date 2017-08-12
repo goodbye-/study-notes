@@ -1,0 +1,35 @@
+maven 生命周期：  三个项目周期是相互独立，每个周期包含阶段，
+    阶段顺序执行，触发之前的阶段，但是不会触发其他周期的阶段。
+
+1.clean  清理项目
+	pre-clean
+	clean
+	post-clean
+
+
+
+2.default  构建项目（核心）
+	compile test package install
+
+
+3.site    生成项目站点
+	pre-site
+	site
+	post-site
+	site-deploy
+	
+	
+==============================
+
+1.插件 插件太多，多学习
+	source插件，位于pom,plugins,plugins,选项有 执行阶段，目标
+	
+2。依赖冲突
+   1 短路优先
+   2.声明优先
+   
+3.聚合和继承
+
+http://www.cnblogs.com/guogangj/p/5505228.html
+	
+	
