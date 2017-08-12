@@ -31,5 +31,7 @@ maven 生命周期：  三个项目周期是相互独立，每个周期包含阶段，
 3.聚合和继承
 
 http://www.cnblogs.com/guogangj/p/5505228.html
+http://developer.51cto.com/art/201410/454082.htm
+http://www.jianshu.com/p/78b17d656a5e
 	
 	
